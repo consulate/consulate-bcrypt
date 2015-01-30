@@ -1,0 +1,26 @@
+{
+  "name": "consulate-bcrypt",
+  "version": "0.1.0",
+  "description": "bcrypt password verification plugin for consulate",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/consulate/consulate-bcrypt.git"
+  },
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/consulate/consulate-bcrypt/issues"
+  },
+  "homepage": "https://github.com/consulate/consulate-bcrypt",
+  "peerDependencies": {
+    "bcrypt": "^0.8.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.6.2"
+  }
+}
